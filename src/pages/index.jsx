@@ -65,6 +65,7 @@ export default function Frontpage() {
                         alt={weather.weather[0].description} 
                     />
                     <p>{weather.main.temp.toFixed()} &#176;C </p>
+                    <p></p>
                     </>
                 )}
             </main>
